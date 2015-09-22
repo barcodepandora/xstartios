@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  RevistaListTableViewController.h
 //  XTODO001
 //
 //  Created by Juan Manuel Moreno on 26/07/15.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface RevistaListTableViewController : UITableViewController
 
+- (IBAction)unwindToList:(UIStoryboardSegue *)segue;
 
 @end
-

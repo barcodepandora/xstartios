@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60A374A31B693F350063C755 /* RecycledSong.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A374A21B693F350063C755 /* RecycledSong.m */; };
 		60EBC04C1B65AD6F004DE3E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EBC04B1B65AD6F004DE3E1 /* main.m */; };
 		60EBC04F1B65AD6F004DE3E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EBC04E1B65AD6F004DE3E1 /* AppDelegate.m */; };
 		60EBC0521B65AD6F004DE3E1 /* XTODO001.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 60EBC0501B65AD6F004DE3E1 /* XTODO001.xcdatamodeld */; };
-		60EBC0551B65AD6F004DE3E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EBC0541B65AD6F004DE3E1 /* ViewController.m */; };
 		60EBC0581B65AD6F004DE3E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60EBC0561B65AD6F004DE3E1 /* Main.storyboard */; };
 		60EBC05A1B65AD6F004DE3E1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60EBC0591B65AD6F004DE3E1 /* Images.xcassets */; };
 		60EBC05D1B65AD6F004DE3E1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60EBC05B1B65AD6F004DE3E1 /* LaunchScreen.xib */; };
 		60EBC0691B65AD6F004DE3E1 /* XTODO001Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EBC0681B65AD6F004DE3E1 /* XTODO001Tests.m */; };
+		60EBC07A1B65C07A004DE3E1 /* WriteBrandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EBC0791B65C07A004DE3E1 /* WriteBrandViewController.m */; };
+		60EBC0861B65C5E8004DE3E1 /* RevistaListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EBC0851B65C5E8004DE3E1 /* RevistaListTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,20 +30,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		60A374A11B693F350063C755 /* RecycledSong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecycledSong.h; sourceTree = "<group>"; };
+		60A374A21B693F350063C755 /* RecycledSong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecycledSong.m; sourceTree = "<group>"; };
 		60EBC0461B65AD6E004DE3E1 /* XTODO001.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XTODO001.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60EBC04A1B65AD6F004DE3E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60EBC04B1B65AD6F004DE3E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		60EBC04D1B65AD6F004DE3E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		60EBC04E1B65AD6F004DE3E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		60EBC0511B65AD6F004DE3E1 /* XTODO001.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = XTODO001.xcdatamodel; sourceTree = "<group>"; };
-		60EBC0531B65AD6F004DE3E1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		60EBC0541B65AD6F004DE3E1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		60EBC0571B65AD6F004DE3E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		60EBC0591B65AD6F004DE3E1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		60EBC05C1B65AD6F004DE3E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		60EBC0621B65AD6F004DE3E1 /* XTODO001Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XTODO001Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60EBC0671B65AD6F004DE3E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60EBC0681B65AD6F004DE3E1 /* XTODO001Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTODO001Tests.m; sourceTree = "<group>"; };
+		60EBC0781B65C079004DE3E1 /* WriteBrandViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WriteBrandViewController.h; sourceTree = "<group>"; };
+		60EBC0791B65C07A004DE3E1 /* WriteBrandViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WriteBrandViewController.m; sourceTree = "<group>"; };
+		60EBC0841B65C5E8004DE3E1 /* RevistaListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RevistaListTableViewController.h; sourceTree = "<group>"; };
+		60EBC0851B65C5E8004DE3E1 /* RevistaListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RevistaListTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +71,10 @@
 		60EBC03D1B65AD6E004DE3E1 = {
 			isa = PBXGroup;
 			children = (
+				60EBC0841B65C5E8004DE3E1 /* RevistaListTableViewController.h */,
+				60EBC0851B65C5E8004DE3E1 /* RevistaListTableViewController.m */,
+				60EBC0781B65C079004DE3E1 /* WriteBrandViewController.h */,
+				60EBC0791B65C07A004DE3E1 /* WriteBrandViewController.m */,
 				60EBC0481B65AD6E004DE3E1 /* XTODO001 */,
 				60EBC0651B65AD6F004DE3E1 /* XTODO001Tests */,
 				60EBC0471B65AD6E004DE3E1 /* Products */,
@@ -85,9 +95,9 @@
 			children = (
 				60EBC04D1B65AD6F004DE3E1 /* AppDelegate.h */,
 				60EBC04E1B65AD6F004DE3E1 /* AppDelegate.m */,
-				60EBC0531B65AD6F004DE3E1 /* ViewController.h */,
-				60EBC0541B65AD6F004DE3E1 /* ViewController.m */,
 				60EBC0561B65AD6F004DE3E1 /* Main.storyboard */,
+				60A374A11B693F350063C755 /* RecycledSong.h */,
+				60A374A21B693F350063C755 /* RecycledSong.m */,
 				60EBC0591B65AD6F004DE3E1 /* Images.xcassets */,
 				60EBC05B1B65AD6F004DE3E1 /* LaunchScreen.xib */,
 				60EBC0501B65AD6F004DE3E1 /* XTODO001.xcdatamodeld */,
@@ -224,8 +234,10 @@
 			files = (
 				60EBC04F1B65AD6F004DE3E1 /* AppDelegate.m in Sources */,
 				60EBC0521B65AD6F004DE3E1 /* XTODO001.xcdatamodeld in Sources */,
-				60EBC0551B65AD6F004DE3E1 /* ViewController.m in Sources */,
 				60EBC04C1B65AD6F004DE3E1 /* main.m in Sources */,
+				60A374A31B693F350063C755 /* RecycledSong.m in Sources */,
+				60EBC0861B65C5E8004DE3E1 /* RevistaListTableViewController.m in Sources */,
+				60EBC07A1B65C07A004DE3E1 /* WriteBrandViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +434,7 @@
 				60EBC06E1B65AD6F004DE3E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		60EBC06F1B65AD6F004DE3E1 /* Build configuration list for PBXNativeTarget "XTODO001Tests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +443,7 @@
 				60EBC0711B65AD6F004DE3E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
